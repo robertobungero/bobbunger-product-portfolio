@@ -1,0 +1,239 @@
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px grey;
+  opacity: 0.9;
+  background: #fff;
+  display: flex;
+}
+
+.navbar .nav-menu-item {
+  font-size: 1.4rem;
+
+}
+
+img[src="img/bob-profile.jpg"] {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+h3.my-nav-text {
+  display: inline;
+  text-align: center;
+}
+
+
+/* H1 CUSTOM */
+@media screen (min-width: 601px) {
+  h1.h1-custom {
+    font-size: 5.5rem;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1.h1-custom {
+    font-size: 3.5rem;
+  }
+}
+
+/* H2 CUSTOM */
+@media screen (min-width: 601px) {
+  h2.h2-custom {
+    font-size: 3.5rem;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h2.h2-custom {
+    font-size: 2rem;
+  }
+}
+
+
+/* bob-contact-img */
+@media screen and (min-width: 601px) {
+  div.bob-contact-img {
+    width: 330px;
+    height: 330px
+  }
+
+  img.bob-profile-logo {
+    /* display:block; */
+  }
+
+  img.product-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  div.bob-contact-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img.bob-profile-logo {
+    display: none;
+  }
+
+  img.product-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+
+/* HIDE NAV MENU items */
+@media screen and (max-width: 1025px) {
+  div.hide-navbar-menu-items {
+    display: none;
+  }
+}
+
+/* NAV TEXT */
+@media screen and (min-width: 601px) {
+  h3.my-nav-text {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  h3.my-nav-text {
+    font-size: 1.2;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  my-nav-text {
+    font-size: 1rem;
+  }
+}
+
+#intro-section {}
+
+#payme {
+  position: relative;
+  background: url("../img/hsbc-bank-headquarters-282077.jpg");
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#payme .primary-overlay {
+  background: rgba(201, 42, 36, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#speechvitals {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#speechvitals .primary-overlay {
+  background: rgba(97, 187, 173, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#pelago {
+  position: relative;
+  background: url("../img/HK-coastline.jpg");
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#pelago .primary-overlay {
+  background: rgba(227, 6, 122, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.product-section {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 600px;
+}
+
+.primary-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+  }
+
+  #showcase h1 {
+    font-size: 4em;
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
+
+.card-fill-styling {
+  background: linear-gradient(90deg, rgba(121, 13, 127, 1) 0%, rgba(227, 6, 122, 1) 98%, rgba(227, 6, 122, 1) 100%);
+}
+
+.card-border-color {
+  border-color: linear-gradient(90deg, rgba(121, 13, 127, 1) 0%, rgba(227, 6, 122, 1) 98%, rgba(227, 6, 122, 1) 100%);
+}
+
+/*
+.card-module-border-wrap {
+  padding: 1rem;
+  position: relative;
+  background:  linear-gradient(90deg, rgba(121,13,127,1) 0%, rgba(227,6,122,1) 98%, rgba(227,6,122,1) 100%);
+  padding: 3px;
+}  */
+
+.card-module-border-wrap {
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(90deg, rgba(121, 13, 127, 1) 0%, rgba(227, 6, 122, 1) 98%, rgba(227, 6, 122, 1) 100%);
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.card-module {
+  background: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 5px;
+}
